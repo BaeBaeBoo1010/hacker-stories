@@ -1,12 +1,8 @@
-// src/App.js
-import React from 'react';
-import Counter from './components/Counter';
-
 function App() {
   return (
     <div className="App">
-      <h1>Ứng dụng đếm</h1>
-      <Counter />
+      <h1>Danh sách việc cần làm</h1>
+      <input class="in"></input>
     </div>
   );
 }
