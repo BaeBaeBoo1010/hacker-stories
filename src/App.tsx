@@ -1,11 +1,15 @@
-import { UserProfile } from "./One/UserProfile";
+import { Header } from "./components/Header"
 
-function App() {
+export default function App() {
   return (
-    <div className="flex h-screen w-full items-center justify-center bg-gray-100">
-      <UserProfile />
-    </div>
-  );
-}
+    <div>
+      <header className="header">
+        <Header />
+      </header>
 
-export default App;
+      <main className="main"></main>
+
+      <footer className="footer"></footer>
+    </div>
+  )
+};
